@@ -1,0 +1,15 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://error.com</uri>
+	<tag>
+		<name>error</name>
+		<tag-class>com.tags.ErrorTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>property</name>
+			<required>true</required>
+			<rtextprvalue>false</rtextprvalue>
+		</attribute>
+	</tag>
+</taglib>
